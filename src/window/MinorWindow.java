@@ -20,8 +20,8 @@ public class MinorWindow {
      * Add Employees 4 คน ในการ Test Program
      */
     public MinorWindow() {
-        employeeManagement = new EmployeeManagement();
-        jobManagement = new JobManagement();
+        this.employeeManagement = new EmployeeManagement();
+        this.jobManagement = new JobManagement();
         this.employeeManagement.addEmployee("Johnny English",24, jobManagement.salaryOfJob(1), "0813267546", "johnny@outlook.com",jobManagement.jobPosition(1) );
         this.employeeManagement.addEmployee("Beth Washington",23, jobManagement.salaryOfJob(2), "0854313211", "beth_wa@hotmail.com",jobManagement.jobPosition(2) );
         this.employeeManagement.addEmployee("Mike Tiger",30, jobManagement.salaryOfJob(3), "0843215313", "mike@gmail.com",jobManagement.jobPosition(3) );
