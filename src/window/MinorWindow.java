@@ -8,7 +8,7 @@ import java.util.Scanner;
 /**
  * MinorManagementWindow Class หน้าต่างการทำงานของแต่ละ Menu ที่เลือก
  *
- * @author Siripong Phiwkhaw
+ * @author Siripong Phiwkhaw & Phumin Chumphu
  */
 public class MinorWindow {
     private final EmployeeManagement employeeManagement;
@@ -33,6 +33,8 @@ public class MinorWindow {
      * <p>
      * ระบุชื่อ, อายุ, เบอร์โทรศัพท์, อีเมลล์, ตำแหน่งงาน
      * เมื่อมีการระบุตำแหน่งงาน jobManagement จะไประบุเงินเดือนเริ่มต้นให้ตาม jobPosition
+     *
+     * @author Sriripong Phiwkhaw & Phumin Chumphu
      */
     public void addEmployeeWindow() {
         String name, email, contactNumber;
