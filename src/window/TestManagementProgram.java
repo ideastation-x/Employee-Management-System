@@ -21,7 +21,7 @@ public class TestManagementProgram {
      * เรียกใช้งาน mainMenu(); สำหรับการทำงานของโปรแกรมทั้งหมด
      */
     public static void main(String[] args) {
-        MainManagementWindow managementSystem = new MainManagementWindow();
+        MainWindow managementSystem = new MainWindow();
         managementSystem.mainMenu(); // หน้าต่างการทำงานทั้งหมด
     }
 }
